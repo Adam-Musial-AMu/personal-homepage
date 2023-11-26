@@ -12,6 +12,6 @@ export const GlobalStyle = createGlobalStyle`
     body {
         margin: 0 auto;
         font-family: 'Inter', sans-serif;
-        background-color: ${({ theme }) => theme.color.alto};
+        background-color: ${({ theme }) => theme.color.whiteLilac};
     }
 `;
