@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         margin: 0 auto;
         font-family: 'Inter', sans-serif;
-        background-color: ${({ theme }) => theme.color.whiteLilac};
+        background-color: ${({ theme }) => theme.colors.global.background};
+        height: 2000px; // to see background
     }
 `;
