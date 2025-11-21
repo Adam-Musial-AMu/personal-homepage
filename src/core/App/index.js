@@ -4,9 +4,9 @@ import { GlobalStyle } from './GlobalStyle';
 import { useSelector } from 'react-redux';
 import { themeDark, themeLight } from './theme';
 import { PersonalHomepage } from '../../features/personalHomepage/PersonalHomepage';
-import { selectIsDarkTheme } from '../../common/ThemeSwitch/themeSlice';
+import { selectIsDarkTheme } from '../../common/themeSlice';
 
-function App() {
+export const App = () => {
   const isDarkTheme = useSelector(selectIsDarkTheme);
 
   return (
@@ -15,7 +15,7 @@ function App() {
       <GlobalStyle />
       <PersonalHomepage />
     </ThemeProvider>
-  )
-}
+  );
+};
 
 export default App;

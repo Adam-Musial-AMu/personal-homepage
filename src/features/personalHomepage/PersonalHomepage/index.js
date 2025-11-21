@@ -1,10 +1,11 @@
 import { ThemeSwitch } from "../../../common/ThemeSwitch";
+import { AboutMe } from "./AboutMe";
 import { Container } from "./styled";
 
 
 export const PersonalHomepage = () => (
     <Container>
         <ThemeSwitch />
-        <p>Personal Homepage</p>
+        <AboutMe />
     </Container>
 );
