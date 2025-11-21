@@ -1,23 +1,32 @@
 import adamMusialImage from "./Adam_Musial.jpg";
 import { ReactComponent as EnvelopeIcon } from "./Message.svg";
-import { Wrapper, ProfileImage, ThisIs, Name, Description, ButtonLink } from "./styled";
+import {
+  Wrapper,
+  ProfileImage,
+  Person,
+  ThisIs,
+  Description,
+  ContactButton,
+} from "./styled";
+import { email } from "../email";
+
 
 export const AboutMe = () => (
     <Wrapper>
         <ProfileImage src={adamMusialImage} alt="Adam Musiał" />
         <div>
             <ThisIs>This is</ThisIs>
-            <Name>Adam Musiał</Name>
+            <Person>Adam Musiał</Person>
             <Description>
-                💻👨🏻‍💻Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                💻 Hi, I am a Junior Frontend Developer with one year experience. I am
+                looking for my first job and programming challenges. I want to explore
+                new technologies, improve my skills and gain knowledge among other
+                programmers.
             </Description>
-            <ButtonLink>
+            <ContactButton href={`mailto:${email}`} title={email}>
                 <EnvelopeIcon />
-                Hire me
-            </ButtonLink>
-        </div>    
+                Hire Me!
+            </ContactButton>
+        </div>
     </Wrapper>
-    
-)
+);
