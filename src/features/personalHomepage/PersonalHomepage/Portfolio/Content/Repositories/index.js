@@ -21,7 +21,24 @@ export const Repositories = ({ repositories }) => {
               <LinksRow>
                 <dt>Demo:</dt>
                 <LinksValue>
-                  <Link target="_blank" rel="noreferrer" href={homepage}>
+                  <Link
+                    href={homepage}
+                    onClick={(e) => {
+                      // TYLKO lewy klik bez modyfikatorów otwieramy bez referrera
+                      if (
+                        !e.ctrlKey &&
+                        !e.metaKey &&
+                        !e.shiftKey &&
+                        !e.altKey &&
+                        e.button === 0
+                      ) {
+                        e.preventDefault();
+                        window.open(homepage, "_blank", "noopener,noreferrer");
+                      }
+                    }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {homepage}
                   </Link>
                 </LinksValue>
