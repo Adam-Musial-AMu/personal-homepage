@@ -20,6 +20,7 @@ export const Wrapper = styled.div`
 
 export const ProfileImage = styled.img`
   width: 30vw;
+  height: 30vw;
   max-width: 384px;
   max-height: 384px;
 
@@ -27,6 +28,7 @@ export const ProfileImage = styled.img`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     width: 132px;
+    height: 132px;
   }
 `;
 
