@@ -32,3 +32,11 @@ export const Paragraph = styled.p`
     font-size: 16px;
   }
 `;
+
+export const StyledWarningIcon = styled(WarningIcon)`
+  height: auto;
+
+  --warning-bg: ${({ theme }) => theme.colors.primary};
+  --warning-fg: ${({ theme }) => theme.colors.button.text};
+
+`;
