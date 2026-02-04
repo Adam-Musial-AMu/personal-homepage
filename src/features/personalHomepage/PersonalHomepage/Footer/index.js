@@ -17,9 +17,10 @@ export const Footer = () => (
         <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
       </EmailWrapper>
       <Paragraph>
-        I’m always open to new projects whenever I have the time. If you have
-        a&nbsp; website, dashboard or mobile app in mind and need some help
-        to&nbsp; make your ideas come to life, feel free to conatct me ✌
+        I’m always open to new projects when time allows. If you’re looking to build
+        a website, dashboard, or mobile app — especially with a focus 
+        on  Data, AI, or Machine Learning — feel free to reach out 
+        and let’s bring  your ideas to life ✌
       </Paragraph>
       <SocialIcons />
     </Address>
