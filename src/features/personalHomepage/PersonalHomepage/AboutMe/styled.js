@@ -3,7 +3,6 @@ import { ButtonLink } from "../ButtonLink";
 
 export const Wrapper = styled.div`
   display: grid;
-  margin-top: -30px;
   grid-template-columns: auto 1fr;
   grid-gap: 64px;
   align-items: center;
@@ -31,7 +30,6 @@ export const ProfileImage = styled.img`
     height: 132px;
   }
 `;
-
 
 export const ThisIs = styled.p`
   font-size: 12px;
