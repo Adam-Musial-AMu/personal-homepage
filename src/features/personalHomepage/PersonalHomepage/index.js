@@ -3,7 +3,7 @@ import { AboutMe } from "./AboutMe";
 import { Container } from "./styled";
 import { Skills } from "./Skills";
 import { Portfolio } from "./Portfolio";
-import { skills, nextSkills } from "./skillsData";
+import { frontendSkills, dataSkills } from "./skillsData";
 import { Footer } from "./Footer";
 
 export const PersonalHomepage = () => (
@@ -11,8 +11,8 @@ export const PersonalHomepage = () => (
         <ThemeSwitch />
         <AboutMe />
         <main>
-            <Skills title={<>My skillset includes 🛠</>} skills={skills} />
-            <Skills title={<>What I want to learn next 🚀</>} skills={nextSkills} />
+            <Skills title={<>My Data / AI / ML skillset includes 🛠</>} skills={dataSkills} />
+            <Skills title={<>My Frontend / Backend skillset includes 🚀</>} skills={frontendSkills} />
             <Portfolio />
         </main>
         <Footer />
