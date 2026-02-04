@@ -11,7 +11,7 @@ export const PersonalHomepage = () => (
         <ThemeSwitch />
         <AboutMe />
         <main>
-            <Skills title={<>My Data / AI / ML skillset includes 🛠</>} skills={dataSkills} />
+            <Skills title={<>My Data / AI / ML skillset includes 🛠️</>} skills={dataSkills} />
             <Skills title={<>My Frontend / Backend skillset includes 🚀</>} skills={frontendSkills} />
             <Portfolio />
         </main>
