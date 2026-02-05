@@ -18,7 +18,7 @@ export const AboutMe = () => (
             <ThisIs>This is</ThisIs>
             <Person>Adam Musiał</Person>
             <Description>
-                💻 Hi, I am a Junior Data / AI enthusiast focused on data analysis 
+                💻 Hi, I am a ML / Data / AI enthusiast focused on data analysis 
                 and machine learning. I work with Python-based tools and data exploration 
                 and I use frontend (Streamlit / React.js) and backend technologies as supporting skills for 
                 building and presenting data-driven applications. 

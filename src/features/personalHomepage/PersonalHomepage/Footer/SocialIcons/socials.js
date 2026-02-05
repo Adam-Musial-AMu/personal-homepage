@@ -10,14 +10,15 @@ export const socials = [
     url: "https://github.com/Adam-Musial-AMu",
     Icon: styleIcon(GithubIcon),
   },
+  /*
   {
     name: "Facebook",
     url: "https://www.facebook.com/profile.php?id=100012331151586",
     Icon: styleIcon(FacebookIcon),
-  },
+  },*/
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/adammusial/",
+    url: "https://www.linkedin.com/in/adam-musial-amu",
     Icon: styleIcon(LinkedinIcon),
   }, 
   /*
