@@ -1,4 +1,4 @@
-import adamMusialImage from "./_adam_musial_.png";
+import adamMusialImage from "./adam_musial.png";
 import { ReactComponent as EnvelopeIcon } from "./Message.svg";
 import {
   Wrapper,
